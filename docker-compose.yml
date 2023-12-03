@@ -2,8 +2,8 @@ version: "3.8"
 services:
   app:
     build:
-      context: ..
-      dockerfile: ./earnit/Dockerfile
+      context: .
+      dockerfile: ./Dockerfile
     environment:
       COMPOSER_ALLOW_SUPERUSER: 1
       XDEBUG_MODE: "off"
